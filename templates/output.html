@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: rgb(115, 189, 130);
+}
+
+h1 {
+  font-size: 70px;  
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;   
+  color: Red;
+  text-align: center;
+   }
+
+h3 {
+  color: green;  
+  text-align: center;
+  font-size: 40px;
+}
+</style>
+</head>
+<body>
+    <h1>Prediction</h1>
+
+    {% if data==1 %}
+    <h2>Possibility of Heart Failure</h2>
+
+    {% else %}
+    <h3>Patient is Healthy.</h3>
+
+    {% endif %}
+    <br><br>
+    <center>
+
+        <a href="/">Back to Homepage</a>
+
+    </center>
+    
+
+</body>
+</html>
