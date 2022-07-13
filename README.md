@@ -25,6 +25,20 @@ Code is written in Python 3.9. If you don't have python installed on your system
 8.  Heroku
 
 # Workflow:
-   # Data Collection
+   # Data Collection:
 Apple iPhone SE data set from Kaggle
 
+# Data Pre-Processing:
+1.  Missing values handling by Simple imputation (median strategy)
+2.  Categorical features handling by ordinal encoding and label encoding
+3.  Feature scaling done by Standard Scalar method
+4.  Imbalanced dataset handled by SMOTE
+5.  Feature selection done by forward feature selection
+
+# Model Implementation and Evaluation:
+1.  Various classification algorithms like Logistic Regression, Random Forest, Decision Tree, Naïve Bayes, KNN tested.
+2.  Random Forest was given better results. Random Forest was chosen for the final model training and testing.
+3.  Model performance evaluated based on accuracy, confusion matrix.
+
+# Model Deployment
+The final model is deployed on Heroku using Flask framework
