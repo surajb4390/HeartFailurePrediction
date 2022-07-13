@@ -24,4 +24,7 @@ Code is written in Python 3.9. If you don't have python installed on your system
 7.  Gunicorn
 8.  Heroku
 
+# Workflow:
+   # Data Collection
+Apple iPhone SE data set from Kaggle
 
